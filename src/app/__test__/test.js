@@ -54,5 +54,5 @@ test('testing levelUp Error in Character', () => {
 
   expect(() => {
     character.levelUp();
-  }).toThrow('Пациенту уже ничто не поможет');
+  }).toThrow('You are dead');
 });
